@@ -1,0 +1,33 @@
+/********
+AUTHOR: PAULO VICTOR;
+DATA DE CRIACAO:05/04/2020 - 14:23;
+PROJETO:GOODVIBES;
+EMPRESA:SHAWEE - HACKTHON FOR GOOD;
+EQUIPE:BRUNO, PAULO, RODRIGO E WAGNER;
+TIPO DO ARQUIVO: FOLHA DE ESTILO GERAL (CSS);
+*********/
+.noticias-destaques-filtros{
+	margin-top: 150px;
+}
+.alta-destaque-filtros{
+	border-radius: 40px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4)
+}
+.noticias-destaques-filtros-mobile{
+	margin-top: 150px;
+	display: none;
+}
+.alta-destaque-filtros-mobile{
+	width: 100%;
+	padding: 20px 5%;
+	border-radius: 40px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+@media screen and (max-width: 770px){
+	.noticias-destaques-filtros{
+		display: none;
+	}
+	.noticias-destaques-filtros-mobile{
+		display: block;
+	}
+}

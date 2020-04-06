@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sherlock</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Paulo Victor">
+	<meta name="description" content="Plataforma que vem para contribuir para o fortalecimento das fontes de notícias boas e confiável da internet, dando ao usuário a informação de forma limpa e organizada, por meio da nossa plataforma é possível ter uma maior facilidade de encontrar o assunto do momento com filtros e fontes confiáveis. Como notícias das sua região, estado, país e até mesmo no mundo, nossos servidores estão a todo momento varrendo a internet atrás das notícias mais  “quentinhas” para você, nossa plataforma vem com o intuito de dá um basta nas FAKE NEWS que circulam na internet, se você receber algum tipo de notícia via whatsapp ou qualquer outra rede social, entre na nossa plataforma e utilize os nosso filtros, você agora tem o poder de verificar se essa informação é realmente verdadeira. Venha participar do nosso projeto, e tenha o poder de saber a verdade, sem mentiras, sem enganações, venha para GoodVibes.">
+	<meta name="keywords" content="noticias, good, boas fontes, noticias atualizadas">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="text/png" href="imagens/icones/icon/sherlock.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- CARREGAMENTO PAGE -->
+	<div class="carregamento-page">
+		<div class="spin"></div>
+	</div>
+	<!-- FIM CARREGAMENTO PAGE -->
+	
+	<!-- CORPO SITE -->
+	<div class="wrapper">
+		<!-- ********************************************** -->
+		<!-- MENU -->
+		<!-- ********************************************** -->
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #A9D1FF; padding: 20px;">
+				<!-- ********************************************** -->
+				<!-- BOTAO MENU MOBILE -->
+				<!-- ********************************************** -->
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				 <!-- ********************************************** -->
+				<!-- BOTAO MENU MOBILE -->
+				<!-- ********************************************** -->
+				  <a class="navbar-brand" href="#">
+				    <img src="imagens/icones/icon/sherlock.png" width="30" height="30" class="d-inline-block align-top" alt="">Sherlock
+				  </a>
+				  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+				    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				      <li class="nav-item ">
+				        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item ">
+				        <a class="nav-link" href="emAlta.html">Em alta</a>
+				      </li>
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Filtros</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="WhatsNews.html">WhatsNews</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="contato.html">Contato</a>
+				      </li>
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+				      <button class="btn btn-primary my-2 my-sm-0" type="submit">
+				      	<i class="fas fa-search"></i>
+				      </button>
+				    </form>
+				  </div>
+				</nav>
+		</header>
+		<!-- ********************************************** -->
+		<!-- FIM MENU -->
+		<!-- ********************************************** -->
+
+		<!-- ********************************************** -->
+		<!-- NOTICIAS DESTAQUES -->
+		<!-- ********************************************** -->
+		<section class="noticias-destaques-filtros">
+			<div class="container">
+				<div class="alta-destaque-filtros" style="background-color: white; padding: 20px">
+					<h2 class="text-center">Filtros</h2>
+					<br>
+					<div class="row">
+						<div class="col-4">
+							<div class="row">
+								<div class="col-6">
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox1">A-Z</label>
+									</div>
+									<br>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+									  <label class="form-check-label" for="inlineCheckbox2">Z-A</label>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox12">Mundial</label>
+									</div>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox23" value="option2">
+									  <label class="form-check-label" for="inlineCheckbox23">Local</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<form class="form-inline my-2 my-lg-0">
+						      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+						      <button class="btn btn-primary my-2 my-sm-0" type="submit">
+						      	<i class="fas fa-search"></i>
+						      </button>
+						    </form>
+						</div>
+						<div class="col-4">
+							<div class="custom-control custom-radio custom-control-inline">
+							 <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline1">Hoje</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline2">ontem</label>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-4">
+							<div class="row">
+								<div class="col-6">
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox14">Internet</label>
+									</div>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox25" value="option2">
+									  <label class="form-check-label" for="inlineCheckbox25">jornais</label>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox111" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox111">revistas</label>
+									</div>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox222" value="option2">
+									  <label class="form-check-label" for="inlineCheckbox222">Podcast</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							      <select class="custom-select" id="validationDefault04" required>
+							        <option selected disabled value="">Paises</option>
+							        <option>Brasil</option>
+							        <option>Austrália</option>
+							        <option>EUA</option>
+							        <option>Russia</option>
+							        <option>México</option>
+							        <option>Canadá</option>
+							        <option>...</option>
+							      </select>
+						</div>
+						<div class="col-4">
+							<div class="custom-control custom-radio custom-control-inline">
+							 <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline3">Semana atual</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline4">Semana passada</label>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-4">
+							<div class="row">
+								<div class="col-6">
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox61" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox61">Vídeos</label>
+									</div>
+									<br>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox22" value="option2">
+									  <label class="form-check-label" for="inlineCheckbox22">Em alta</label>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox71" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox71">resumo</label>
+									</div>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox28" value="option2">
+									  <label class="form-check-label" for="inlineCheckbox28">integra</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							      <select class="custom-select" id="validationDefault04" required>
+							        <option selected disabled value="">Turno</option>
+							        <option>Manhã</option>
+							        <option>Tarde</option>
+							        <option>Noite</option>
+							      </select>
+						</div>
+						<div class="col-4">
+							<div class="custom-control custom-radio custom-control-inline">
+							 <input type="radio" id="customRadioInline5" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline5">Mês atual</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadioInline6" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline6">Mês passado</label>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-4">
+							<div class="row">
+								<div class="col-6">
+									<div class="custom-control custom-switch">
+									  <input type="checkbox" class="custom-control-input" id="customSwitch11">
+									  <label class="custom-control-label" for="customSwitch11">Ingês</label>
+									</div>
+									<div class="custom-control custom-switch">
+									  <input type="checkbox" class="custom-control-input" id="customSwitch12">
+									  <label class="custom-control-label" for="customSwitch12">Espanhol</label>
+									</div>
+								</div>
+								<div class="col-6">
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							      <select class="custom-select" id="validationDefault04" required>
+							        <option selected disabled value="">Assunto</option>
+							        <option>Saúde</option>
+							        <option>Tecnologia </option>
+							        <option>Politica</option>
+							        <option>Atualidade</option>
+							        <option>Curiosidade</option>
+							        <option>...</option>
+							      </select>
+
+						</div>
+						<div class="col-4">
+							<div class="custom-control custom-radio custom-control-inline">
+							 <input type="radio" id="customRadioInline7" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline7">Ano atual</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadioInline8" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline8">Ano passado</label>
+							</div>
+						</div>						
+					</div>
+					<br>
+					<div class="text-center">
+						<button class="btn btn-primary" type="submit">Filtrar</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ********************************************** -->
+		<!-- FIM NOTICIAS DESTAQUES -->
+		<!-- ********************************************** -->
+
+		<!-- ********************************************** -->
+		<!-- NOTICIAS DESTAQUES MOBILE -->
+		<!-- ********************************************** -->
+		<section class="noticias-destaques-filtros-mobile">
+			<div class="container">
+				<div class="alta-destaque-filtros-mobile text-center" style="background-color: white">
+					<h2 class="text-center">Filtros</h2>
+					<hr>
+					<div class="row">
+						<div class="col-6">
+							<div class="form-check form-check-inline  text-center">
+						  	 	<input class="form-check-input" type="checkbox" id="inlineCheckbox1114" value="option1">
+						 	 	<label class="form-check-label" for="inlineCheckbox1114">A-Z</label>
+							</div>
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox122" value="option1">
+							  <label class="form-check-label" for="inlineCheckbox122">Mundial</label>
+							</div>
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox1444" value="option1">
+							  <label class="form-check-label" for="inlineCheckbox1444">Internet</label>
+							</div>
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox1111" value="option1">
+							  <label class="form-check-label" for="inlineCheckbox1111">revistas</label>
+							</div>
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox616" value="option1">
+							  <label class="form-check-label" for="inlineCheckbox616">Vídeos</label>
+							</div>
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox227" value="option2">
+							  <label class="form-check-label" for="inlineCheckbox227">Em alta</label>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="form-check form-check-inline">
+						  		<input class="form-check-input" type="checkbox" id="inlineCheckbox278" value="option2">
+						  		<label class="form-check-label" for="inlineCheckbox278">Z-A</label>
+							</div>
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox239" value="option2">
+							  <label class="form-check-label" for="inlineCheckbox239">Local</label>
+							</div>
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox255" value="option2">
+							  <label class="form-check-label" for="inlineCheckbox255">jornais</label>
+							</div>
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox2242" value="option2">
+							  <label class="form-check-label" for="inlineCheckbox2242">Podcast</label>
+							</div>	
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox717" value="option1">
+							  <label class="form-check-label" for="inlineCheckbox717">resumo</label>
+							</div>
+							<br>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox288" value="option2">
+							  <label class="form-check-label" for="inlineCheckbox288">integra</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center">
+							<div class="custom-control custom-switch">
+							  <input type="checkbox" class="custom-control-input" id="customSwitch114">
+							  <label class="custom-control-label" for="customSwitch114">Ingês</label>
+							</div>
+							<div class="custom-control custom-switch">
+							  <input type="checkbox" class="custom-control-input" id="customSwitch122">
+							  <label class="custom-control-label" for="customSwitch122">Espanhol</label>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-12">
+							<div  style="margin: 0 auto; display: flex;justify-content: center; width: 100%">
+								<form class="form-inline my-2 my-lg-0">
+							      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search" style="width: 80%">
+							      <button class="btn btn-primary my-2 my-sm-0" type="submit">
+							      	<i class="fas fa-search"></i>
+							      </button>
+							    </form>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-12">
+							<div  style="margin: 0 auto; display: flex;justify-content: center;">
+								<select class="custom-select" id="validationDefault04" required>
+							        <option selected disabled value="">Paises</option>
+							        <option>Brasil</option>
+							        <option>Austrália</option>
+							        <option>EUA</option>
+							        <option>Russia</option>
+							        <option>México</option>
+							        <option>Canadá</option>
+							        <option>...</option>
+							      </select>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-12">
+							<div  style="margin: 0 auto; display: flex;justify-content: center;">
+								 <select class="custom-select" id="validationDefault04" required>
+							        <option selected disabled value="">Turno</option>
+							        <option>Manhã</option>
+							        <option>Tarde</option>
+							        <option>Noite</option>
+							      </select>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-12">
+							<div  style="margin: 0 auto; display: flex;justify-content: center;">
+								 <select class="custom-select" id="validationDefault04" required>
+							        <option selected disabled value="">Assunto</option>
+							        <option>Saúde</option>
+							        <option>Tecnologia </option>
+							        <option>Politica</option>
+							        <option>Atualidade</option>
+							        <option>Curiosidade</option>
+							        <option>...</option>
+							      </select>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-6">
+							<div class="custom-control custom-radio custom-control-inline">
+							 <input type="radio" id="customRadioInline1121" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline1121">Hoje</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							 <input type="radio" id="customRadioInline345" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline345">Semana atual</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							 <input type="radio" id="customRadioInline558" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline558">Mês atual</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							 <input type="radio" id="customRadioInline758" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline758">Ano atual</label>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadioInline258" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline258">ontem</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadioInline458" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline458">Semana atrás</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadioInline658" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline658">Mês passado</label>
+							</div>
+							<br>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadioInline858" name="customRadioInline1" class="custom-control-input">
+							  <label class="custom-control-label" for="customRadioInline858">Ano passado</label>
+							</div>	
+						</div>
+					</div>
+					<hr>
+					<div class="text-center">
+						<button class="btn btn-primary" type="submit">Filtrar</button>
+					</div>							
+			</div>
+		</section>
+		<!-- ********************************************** -->
+		<!-- FIM NOTICIAS DESTAQUES MOBILE -->
+		<!-- ********************************************** -->
+
+		<!-- ********************************************** -->
+		<!-- MODAL COMPARTILHAMENTO NOTICIA -->
+		<!-- ********************************************** -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalCenterTitle">Compartilhar notícia</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <button type="button" class="btn btn-lg btn-block text-white" style="background-color: #4267B2;"><i class="fab fa-facebook-square mr-2"></i>Facebook</button>
+		        <button type="button" class="btn btn-lg btn-block text-white" style="background-color: #1EBEA5"><i class="fab fa-whatsapp mr-2"></i>Whatsapp</button>
+		        <button type="button" class="btn btn-lg btn-block text-white" style="background-color: #8134AF"><i class="fab fa-instagram mr-2"></i>Instagram</button>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- ********************************************** -->
+		<!-- FIM MODAL COMPARTILHAMENTO NOTICIA -->
+		<!-- ********************************************** -->
+
+		<!-- ********************************************** -->
+		<!-- NOTICIAS -->
+		<!-- ********************************************** -->
+		<section class="noticias">
+			<div class="container">
+				<div class="row">
+					<div id="coluna" class="col-md-8">
+						<div class="single-noticia">
+							<img src="imagens/icones/emAlta/fire.png">
+							<div class="container-noticia">
+									<div class="foto-noticia bg-no-repeat bg-cover bg-center" style="background-image: url('imagens/noticias/emAlta/garotas.jpg');" title="foto-mandetta"></div>
+									<div class="descricao-noticia">
+										<h4>Irmãs criam suporte com água e sabão para catadores...</h4>
+										<p class="text-justify">Material foi fixado em postes do bairro Wanel Ville IV, em Sorocaba (SP), para que coletores consigam manter a higiene durante a pandemia de coronavírus....</p>
+										<div class="filtros-noticias">
+											<span>G1 - Jornal</span>
+											<br>
+											<span>4 minutos atrás -  Politica/Covid-19/Atualidade/solidariedade</span>
+										</div>
+										<div class="icones-noticia">
+											<i class="far fa-heart red" style="font-size: 30px; color: red;"></i>
+											<span class="ml-3 text-primary"><a href="https://g1.globo.com/sp/sorocaba-jundiai/noticia/2020/04/04/irmas-criam-suporte-com-agua-e-sabao-para-catadores-de-reciclagem-lavarem-as-maos-video.ghtml" class="ml-3" style="position: relative; font-size: 17px;" target="_black"><strong>Explore</strong></a></span>
+											<a href="#exampleModalCenter" data-toggle="modal"><i class="fas fa-share-square text-primary"></i></a>
+										</div>
+									</div>							
+							</div>
+						</div>
+						<div class="single-noticia">
+							<div class="container-noticia">
+									<div class="foto-noticia bg-no-repeat bg-cover bg-center" style="background-image: url('imagens/noticias/noticias-scroll/mandetta.jpg');" title="foto-mandetta"></div>
+									<div class="descricao-noticia">
+										<h4>Mandetta coloca Brasil na corrida por insumos...</h4>
+										<p class="text-justify">Nesta semana, o ministro da Saúde, Luiz Henrique Mandetta, não mediu palavras para expressar publicamente sua preocupação com a iminente falta de insumos e equipamentos na rede pública de saúde para...</p>
+										<div class="filtros-noticias">
+											<span>Google Notícias - Jornal</span>
+											<br>
+											<span>4 minutos atrás -  Politica/Covid-19/Atualidade</span>
+										</div>
+										<div class="icones-noticia">
+											<i class="far fa-heart red" style="font-size: 30px; color: red;"></i>
+											<span class="ml-3 text-primary"><a href="https://noticias.uol.com.br/politica/ultimas-noticias/2020/04/04/alvo-de-bolsonaro-e-popular-mandetta-nega-saida-medico-nao-abandona-doente.htm" class="ml-3" style="position: relative; font-size: 17px;" target="_black"><strong>Explore</strong></a></span>
+											<a href="#exampleModalCenter" data-toggle="modal"><i class="fas fa-share-square text-primary"></i></a>
+										</div>
+									</div>							
+							</div>
+						</div>
+						<div class="single-noticia">
+							<div class="container-noticia">
+									<div class="foto-noticia bg-no-repeat bg-cover bg-centers" style="background-image: url('imagens/noticias/noticias-scroll/michael-cover.jpeg');" title="Chanceler britânico Michael"></div>
+									<div class="descricao-noticia">
+										<h4>Teoria da conspiração que liga 5G à covid-19 é falsa, diz Reino Unido</h4>
+										<p class="text-justify">Uma teoria da conspiração que liga as torres de telecomunicações móveis 5G à disseminação do novo coronavírus é uma notícia falsa perigosa e completamente mentirosa, disse o Reino Unido, neste sábado (4), depois que...</p>
+										<div class="filtros-noticias">
+											<span>R7 - Jornal - internet</span>
+											<br>
+											<span>10 minutos atrás -  Politica/Covid-19/Atualidade/tecnológia</span>
+										</div>
+										<div class="icones-noticia">
+											<i class="far fa-heart red" style="font-size: 30px; color: red;"></i>
+											<span class="ml-3 text-primary"><a href="https://noticias.r7.com/saude/numero-de-mortos-na-espanha-cai-pelo-segundo-dia-consecutivo-04042020" class="ml-3" style="position: relative; font-size: 17px;" target="_black"><strong>Explore</strong></a></span>
+											<a href="#exampleModalCenter" data-toggle="modal"><i class="fas fa-share-square text-primary"></i></a>
+										</div>
+									</div>							
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="propaganda bg-center bg-no-repeat" style="background-image: url('imagens/propagandas/santa-clara/santaClara.jpg'); background-size: auto 100%"></div>
+						<div class="propaganda-menor bg-cover bg-no-repeat bg-center"  style="background-image: url('imagens/propagandas/picpay/IconeAppPicPay.png');"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ********************************************** -->
+		<!-- FIM NOTICIAS -->
+		<!-- ********************************************** -->
+
+		<!-- ********************************************** -->
+		<!-- PAGINACAO -->
+		<!-- ********************************************** -->
+		<section>
+			<br>
+			<br>
+			<nav aria-label="Page navigation example">
+			  <ul class="pagination justify-content-center">
+			    <li class="page-item disabled">
+			      <a class="page-link" href="#" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			      </a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item"><a class="page-link" href="#">3</a></li>
+			    <li class="page-item">
+			      <a class="page-link" href="#" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+		</section>
+		<!-- ********************************************** -->
+		<!-- FIM PAGINACAO -->
+		<!-- ********************************************** -->
+
+		<!-- ********************************************** -->
+		<!-- RODAPE -->
+		<!-- ********************************************** -->
+		<footer>
+			<p class="text-center">Copyright © 2020 - GOODVIBES - Todos os Direitos Reservados - Recife - PE</p>
+		</footer>
+		<!-- ********************************************** -->
+		<!-- FIM RODAPE -->
+		<!-- ********************************************** -->
+
+	</div>
+	<!-- FIM CORPO SITE -->
+
+
+	<!-- ARQUIVOS EXTERNOS JAVASCRIPT -->
+<script type="text/javascript" src="plugins/jquery/jquery.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>

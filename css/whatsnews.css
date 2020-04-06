@@ -1,0 +1,30 @@
+/********
+AUTHOR: PAULO VICTOR;
+DATA DE CRIACAO:05/04/2020 - 17:10;
+PROJETO:GOODVIBES;
+EMPRESA:SHAWEE - HACKTHON FOR GOOD;
+EQUIPE:BRUNO, PAULO, RODRIGO E WAGNER;
+TIPO DO ARQUIVO: FOLHA DE ESTILO GERAL (CSS);
+*********/
+.chamada-whatsnews{
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.container-chamada-whatsnews{
+	background-color: white;
+	padding: 20px 5%;	
+	border-radius: 40px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+.btn-whats{
+	background-color: #1EBEA5;
+	padding: 20px 90px;
+	border-radius: 20px;
+	font-size: 20px;
+	transition: 0.5s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4)
+}
+.btn-whats:hover{
+	background-color: #24CD63;
+	box-shadow: none;
+}
