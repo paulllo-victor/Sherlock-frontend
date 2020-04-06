@@ -18,3 +18,8 @@ verdadeira e não uma FAKE NEWS, na sessão WhatsNews é possível fazer essa in
 é ter a confirmação da notícia com uma varredura na internet de fontes confiáveis.
 
 <img src="imagens/apresentacao/whatsNews.png" img/>
+
+ao clicar no botão, o usuário será redirecionado para o whatsapp, com um código de acesso, que é fundamental 
+para o funcionamento da aplicação, pois esse código vai liberar o acesso ao usuário! 
+A partir do momento que o código de acesso é enviado para o chatbot, seu acesso estará liberado, e assim ele
+poderá enviar áudios e vídeos.
