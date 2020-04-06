@@ -11,3 +11,9 @@ O projeto utiliza as seguintes tecnologias:
 
 Endereço da aplicação:
 https://owlhost.com.br/sherlock/
+
+# WhatsNews
+Com a nossa plataforma é possível verificar se um áudio ou vídeo estão passando realmente a informação
+verdadeira e não uma FAKE NEWS
+
+<img src="imagens/apresentacao/whatsNews.png" img/>
